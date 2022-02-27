@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("clear_weather.jpg");
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    font-size: medium ;
+    font-weight: bold;
+    
+}
+
+.app-main{
+    width:50vh;
+    margin: 100px auto;
+    background-color: rgb(218, 223, 228);
+    opacity: 0.65;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 8px;
+}
+.app-main >*
+{
+    margin-bottom: 20px;
+
+}
+
+.input-box{
+    width: 100%;
+    background-color: azure;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+    text-align: center;
+
+}
+.input-box:focus{
+    background-color: rgb(240,255,255);
+}
+.weather-content{
+    color: rgba(129, 5, 5, 1);
+    padding: 25px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(240, 255, 255);
+    
+    height: 50vh;
+
+}
+
+.location-details{
+    font-weight: bold;
+    
+
+   
+}
+.city{
+    font-size: 20pt;
+
+}
+.weather-status{
+        padding: 20px;
+}
+.date{
+    font-size: 13.6pt;
+}
+.min-max{
+    font-size: 12pt;
+
+}
+.weather{
+    font-size: 12pt;
+
+}
+.temp{
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgb(0,0,0,0.3);
+}
